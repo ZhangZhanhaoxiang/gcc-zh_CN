@@ -35,7 +35,7 @@ msgstr ""
 "Project-Id-Version: gcc 13.1-b20230409\n"
 "Report-Msgid-Bugs-To: https://gcc.gnu.org/bugs/\n"
 "POT-Creation-Date: 2023-07-26 18:38+0000\n"
-"PO-Revision-Date: 2024-02-03 17:41+0800\n"
+"PO-Revision-Date: 2024-02-04 22:10+0800\n"
 "Last-Translator: Zhanhaoxiang Zhang <zzhx13842727578@126.com>\n"
 "Language-Team: Chinese (simplified) <i18n-zh@googlegroups.com>\n"
 "Language: zh_CN\n"
@@ -1244,10 +1244,9 @@ msgid "Reallocate the LHS in assignments."
 msgstr "在赋值中重分配左值"
 
 #: fortran/lang.opt:765
-#, fuzzy, no-c-format
-#| msgid "Use a 4-byte record marker for unformatted files"
+#, no-c-format
 msgid "Use a 4-byte record marker for unformatted files."
-msgstr "对未格式化的文件，使用一个 4 字节的记录标记"
+msgstr "对未格式化的文件，使用一个 4 字节的记录标记。"
 
 #: fortran/lang.opt:769
 #, fuzzy, no-c-format
@@ -7923,16 +7922,14 @@ msgid "Use hardware floating point."
 msgstr "使用硬件浮点单元"
 
 #: config/pdp11/pdp11.opt:51
-#, fuzzy, no-c-format
-#| msgid "Use 16 bit int"
+#, no-c-format
 msgid "Use 16 bit int."
-msgstr "使用 16 位整数"
+msgstr "使用 16 位整数。"
 
 #: config/pdp11/pdp11.opt:55
-#, fuzzy, no-c-format
-#| msgid "Use 32 bit int"
+#, no-c-format
 msgid "Use 32 bit int."
-msgstr "使用 32 位整数"
+msgstr "使用 32 位整数。"
 
 #: config/pdp11/pdp11.opt:59 config/rs6000/rs6000.opt:179
 #, fuzzy, no-c-format
@@ -8118,23 +8115,21 @@ msgid "sizeof(long double) is 12."
 msgstr "sizeof(long double) 等于 12"
 
 #: config/i386/i386.opt:210
-#, fuzzy, no-c-format
+#, no-c-format
 msgid "Use 80-bit long double."
-msgstr "使用 64 位 long double"
+msgstr "使用 64 位 long double。"
 
 #: config/i386/i386.opt:214 config/s390/s390.opt:163
 #: config/sparc/long-double-switch.opt:27 config/alpha/alpha.opt:102
-#, fuzzy, no-c-format
-#| msgid "Use 64-bit long double"
+#, no-c-format
 msgid "Use 64-bit long double."
-msgstr "使用 64 位 long double"
+msgstr "使用 64 位 long double。"
 
 #: config/i386/i386.opt:218 config/s390/s390.opt:159
 #: config/sparc/long-double-switch.opt:23 config/alpha/alpha.opt:98
-#, fuzzy, no-c-format
-#| msgid "Use 128-bit long double"
+#, no-c-format
 msgid "Use 128-bit long double."
-msgstr "使用 128 位 long double"
+msgstr "使用 128 位 long double。"
 
 #: config/i386/i386.opt:222 config/sh/sh.opt:179
 #, fuzzy, no-c-format
@@ -13183,10 +13178,9 @@ msgid "Use 4 media accumulators."
 msgstr "使用 4 个多媒体累加器"
 
 #: config/frv/frv.opt:34
-#, fuzzy, no-c-format
-#| msgid "Use 8 media accumulators"
+#, no-c-format
 msgid "Use 8 media accumulators."
-msgstr "使用 8 个多媒体累加器"
+msgstr "使用 8 个多媒体累加器。"
 
 #: config/frv/frv.opt:38
 #, fuzzy, no-c-format
@@ -14722,10 +14716,9 @@ msgid "Conform to the o32 FPXX ABI."
 msgstr ""
 
 #: config/mips/mips.opt:210
-#, fuzzy, no-c-format
-#| msgid "Use 64-bit floating-point registers"
+#, no-c-format
 msgid "Use 64-bit floating-point registers."
-msgstr "使用 64 位浮点寄存器"
+msgstr "使用 64 位浮点寄存器。"
 
 #: config/mips/mips.opt:214
 #, fuzzy, no-c-format
@@ -14760,10 +14753,9 @@ msgid "Use 32-bit general registers."
 msgstr "使用 32 位通用寄存器"
 
 #: config/mips/mips.opt:240
-#, fuzzy, no-c-format
-#| msgid "Use 64-bit general registers"
+#, no-c-format
 msgid "Use 64-bit general registers."
-msgstr "使用 64 位通用寄存器"
+msgstr "使用 64 位通用寄存器。"
 
 #: config/mips/mips.opt:244
 #, fuzzy, no-c-format
@@ -14834,16 +14826,14 @@ msgid "Use indirect calls."
 msgstr "使用间接调用"
 
 #: config/mips/mips.opt:288
-#, fuzzy, no-c-format
-#| msgid "Use a 32-bit long type"
+#, no-c-format
 msgid "Use a 32-bit long type."
-msgstr "使用 32 位 long 类型"
+msgstr "使用 32 位 long 类型。"
 
 #: config/mips/mips.opt:292
-#, fuzzy, no-c-format
-#| msgid "Use a 64-bit long type"
+#, no-c-format
 msgid "Use a 64-bit long type."
-msgstr "使用 64 位 long 类型"
+msgstr "使用 64 位 long 类型。"
 
 #: config/mips/mips.opt:296
 #, fuzzy, no-c-format
@@ -21135,13 +21125,12 @@ msgid "  --help                   Display this information.\n"
 msgstr "  --help                   显示此帮助说明。\n"
 
 #: gcc.cc:3717
-#, fuzzy
-#| msgid ""
-#| "  --target-help            Display target specific command line options.\n"
 msgid ""
 "  --target-help            Display target specific command line options "
 "(including assembler and linker options).\n"
-msgstr "  --target-help            显示目标机器特定的命令行选项。\n"
+msgstr ""
+"  --target-help            显示目标机器特定的命令行选项（包括汇编程序和链接器"
+"选项）。\n"
 
 #: gcc.cc:3719
 msgid ""
@@ -21757,21 +21746,18 @@ msgid "  -h, --help                      Print this help, then exit\n"
 msgstr "  -h, --help                      打印此帮助并退出\n"
 
 #: gcov.cc:935
-#, fuzzy, c-format
-#| msgid ""
-#| "  -i, --json-format               Output JSON intermediate format into ."
-#| "gcov.json.gz file\n"
+#, c-format
 msgid ""
 "  -j, --json-format               Output JSON intermediate format\n"
 "                                    into .gcov.json.gz file\n"
 msgstr ""
-"  -i, --json-format               以 JSON 中间格式输出至 .gcov.json.gz 文件\n"
+"  -i, --json-format               以 JSON 中间格式输出\n"
+"                                  至 .gcov.json.gz 文件\n"
 
 #: gcov.cc:937
-#, fuzzy, c-format
-#| msgid "  -j, --human-readable            Output human readable numbers\n"
+#, c-format
 msgid "  -H, --human-readable            Output human readable numbers\n"
-msgstr "  -j, --human-readable            输出人类可读的数字\n"
+msgstr "  -H, --human-readable            输出人类可读的数字\n"
 
 #: gcov.cc:938
 #, c-format
@@ -21849,32 +21835,27 @@ msgstr "  -w, --verbose                   输出详细信息\n"
 
 #: gcov.cc:952
 #, fuzzy, c-format
-#| msgid "  -m, --demangled-names           Output demangled function names\n"
 msgid "  -x, --hash-filenames            Hash long pathnames\n"
-msgstr "  -m, --demangled-names           输出解码后的函数名\n"
+msgstr "  -x, --hash-filenames            哈希长路径名\n"
 
 #: gcov.cc:953
-#, fuzzy, c-format
-#| msgid "Options:\n"
+#, c-format
 msgid ""
 "\n"
 "Obsolete options:\n"
-msgstr "选项：\n"
+msgstr ""
+"\n"
+"过时的选项:\n"
 
 #: gcov.cc:954
-#, fuzzy, c-format
-#| msgid ""
-#| "  -i, --json-format               Output JSON intermediate format into ."
-#| "gcov.json.gz file\n"
+#, c-format
 msgid "  -i, --json-format               Replaced with -j, --json-format\n"
-msgstr ""
-"  -i, --json-format               以 JSON 中间格式输出至 .gcov.json.gz 文件\n"
+msgstr "  -i, --json-format               替换为 -j, --json-format\n"
 
 #: gcov.cc:955
-#, fuzzy, c-format
-#| msgid "  -j, --human-readable            Output human readable numbers\n"
+#, c-format
 msgid "  -j, --human-readable            Replaced with -H, --human-readable\n"
-msgstr "  -j, --human-readable            输出人类可读的数字\n"
+msgstr "  -j, --human-readable            替换为 -H, --human-readabl\n"
 
 #: gcov.cc:966
 #, c-format
@@ -26740,9 +26721,9 @@ msgstr "%qE属性与 %s 属性冲突"
 #: c-family/c-attribs.cc:2928 c-family/c-attribs.cc:4790
 #: c-family/c-attribs.cc:4883 cp/decl.cc:15979 cp/decl.cc:16029
 #: cp/friend.cc:318 cp/tree.cc:5261
-#, fuzzy, gcc-internal-format
+#, gcc-internal-format
 msgid "previous declaration here"
-msgstr "%q+T先前在此处有过声明"
+msgstr "先前的声明在此"
 
 #. Warn about and ignore all others for now, but store them.
 #: attribs.cc:720 c-family/c-attribs.cc:3956 objc/objc-act.cc:5131
@@ -26867,9 +26848,9 @@ msgstr "%qE不兼容的属性已被忽略"
 
 #: attribs.cc:1178 cp/decl.cc:1282 cp/decl.cc:2245 cp/decl.cc:2293
 #: cp/decl.cc:2309 cp/decl.cc:2989 cp/decl.cc:3435
-#, fuzzy, gcc-internal-format
+#, gcc-internal-format
 msgid "previous declaration of %qD"
-msgstr "%qD先前没有声明"
+msgstr "%qD 的先前的声明"
 
 #: attribs.cc:1287
 #, gcc-internal-format
@@ -40197,10 +40178,9 @@ msgid "%<pch_preprocess%> pragma should only be used with %<-fpreprocessed%>"
 msgstr "pch_preprocess pragma 只应与 -fpreprocessed 并用"
 
 #: c-family/c-pch.cc:394
-#, fuzzy, gcc-internal-format
-#| msgid "use #include instead"
+#, gcc-internal-format
 msgid "use %<#include%> instead"
-msgstr "改用 #include"
+msgstr "改用 %<#include%>"
 
 #: c-family/c-pch.cc:400
 #, gcc-internal-format
@@ -40959,16 +40939,14 @@ msgid "conversion to %qT from boolean expression"
 msgstr "将布尔表达式转化为%qT"
 
 #: c-family/c-warn.cc:1235 c-family/c-warn.cc:1439
-#, fuzzy, gcc-internal-format
-#| msgid "conversion from %qT to %qT discards qualifiers"
+#, gcc-internal-format
 msgid "unsigned conversion from %qT to %qT changes value from %qE to %qE"
-msgstr "从%qT到%qT的转换丢失了限定信息"
+msgstr "从 %qT 到 %qT 的无符号转换将值从 %qE 更改为 %qE"
 
 #: c-family/c-warn.cc:1240 c-family/c-warn.cc:1447
-#, fuzzy, gcc-internal-format
-#| msgid "conversion from %qT to %qT is ambiguous"
+#, gcc-internal-format
 msgid "unsigned conversion from %qT to %qT changes the value of %qE"
-msgstr "从%qT到%qT的转换有歧义"
+msgstr "从 %qT 到 %qT 的无符号转换会更改 %qE 的值"
 
 #: c-family/c-warn.cc:1248
 #, fuzzy, gcc-internal-format
@@ -41421,10 +41399,9 @@ msgid ""
 msgstr "比较无符号数和取反后又经提升的无符号数"
 
 #: c-family/c-warn.cc:2479
-#, fuzzy, gcc-internal-format
-#| msgid "unused parameter %q+D"
+#, gcc-internal-format
 msgid "unused parameter %qD"
-msgstr "未使用的参数%q+D"
+msgstr "未使用的参数 %qD"
 
 #: c-family/c-warn.cc:2541
 #, fuzzy, gcc-internal-format
@@ -41536,16 +41513,14 @@ msgid "argument %u of type %s declared as a variable length array"
 msgstr "使用变长数组时警告"
 
 #: c-family/c-warn.cc:3521
-#, fuzzy, gcc-internal-format, gfc-internal-format
-#| msgid "previously declared here"
+#, gcc-internal-format, gfc-internal-format
 msgid "previously declared as a pointer %s"
-msgstr "以前在此声明过"
+msgstr "先前声明为一个指针 %s"
 
 #: c-family/c-warn.cc:3522
-#, fuzzy, gcc-internal-format, gfc-internal-format
-#| msgid "previously declared here"
+#, gcc-internal-format, gfc-internal-format
 msgid "previously declared as an ordinary array %s"
-msgstr "以前在此声明过"
+msgstr "先前声明为一个普通数组 %s"
 
 #: c-family/c-warn.cc:3535 c-family/c-warn.cc:3549
 #, fuzzy, gcc-internal-format, gfc-internal-format
@@ -41553,16 +41528,14 @@ msgid "argument %u of type %s declared as a pointer"
 msgstr "%2$qE的实参 %1$d 必须是地址"
 
 #: c-family/c-warn.cc:3539 c-family/c-warn.cc:3565
-#, fuzzy, gcc-internal-format, gfc-internal-format
-#| msgid "ISO C90 forbids variable length array"
+#, gcc-internal-format, gfc-internal-format
 msgid "previously declared as a variable length array %s"
-msgstr "ISO C90 不允许变长数组"
+msgstr "先前声明为一个变长数组 %s"
 
 #: c-family/c-warn.cc:3552
-#, fuzzy, gcc-internal-format, gfc-internal-format
-#| msgid "previously declared here"
+#, gcc-internal-format, gfc-internal-format
 msgid "previously declared as an array %s"
-msgstr "以前在此声明过"
+msgstr "先前声明为一个数组 %s"
 
 #: c-family/c-warn.cc:3561
 #, gcc-internal-format, gfc-internal-format
@@ -41578,10 +41551,10 @@ msgid_plural "argument %u of type %s declared with %u variable bounds"
 msgstr[0] "忽略声明有 warn_unused_result 属性的%qD的返回值"
 
 #: c-family/c-warn.cc:3596
-#, fuzzy, gcc-internal-format, gfc-internal-format
+#, gcc-internal-format, gfc-internal-format
 msgid "previously declared as %s with %u variable bound"
 msgid_plural "previously declared as %s with %u variable bounds"
-msgstr[0] "%q+D带有 noinline 属性的声明出现在其内联声明之后"
+msgstr[0] "以前声明为 %s，绑定了 %u 变量"
 
 #: c-family/c-warn.cc:3620
 #, gcc-internal-format, gfc-internal-format
@@ -41613,21 +41586,19 @@ msgid "argument %u of type %s declared with mismatched bound %<%s%>"
 msgstr ""
 
 #: c-family/c-warn.cc:3709
-#, fuzzy, gcc-internal-format
-#| msgid "previously declared here"
+#, gcc-internal-format
 msgid "previously declared as %s with bound argument %E"
-msgstr "以前在此声明过"
+msgstr "以前声明为 %s，绑定了参数 %E"
 
 #: c-family/c-warn.cc:3714
-#, fuzzy, gcc-internal-format
-#| msgid "previous declaration of %<%c%s%>"
+#, gcc-internal-format
 msgid "previously declared as %s with bound %<%s%>"
-msgstr "%<%c%s%>的上一个声明"
+msgstr "以前声明为 %s，绑定了 %<%s%>"
 
 #: c-family/c-warn.cc:3734
-#, fuzzy, gcc-internal-format
+#, gcc-internal-format
 msgid "previously declared as %s with bound %qs"
-msgstr "先前的声明%q+D"
+msgstr "以前声明为 %s，绑定了 %qs"
 
 #: c-family/c-warn.cc:3753
 #, gcc-internal-format, gfc-internal-format
@@ -49388,22 +49359,19 @@ msgid "prototype for %q+D follows non-prototype definition"
 msgstr "%q+D的原型出现在非原型定义之后"
 
 #: c/c-decl.cc:2000
-#, fuzzy, gcc-internal-format
-#| msgid "previous definition of %q+D was here"
+#, gcc-internal-format
 msgid "previous definition of %q+D with type %qT"
-msgstr "%q+D的上一个定义在此"
+msgstr "上一个类型为 %2$qT 的 %1$q+D 定义"
 
 #: c/c-decl.cc:2004
-#, fuzzy, gcc-internal-format
-#| msgid "previous implicit declaration of %q+D was here"
+#, gcc-internal-format
 msgid "previous implicit declaration of %q+D with type %qT"
-msgstr "%q+D的上一个隐式声明在此"
+msgstr "上一个类型为 %2$qT 的 %1$q+D 的隐式声明"
 
 #: c/c-decl.cc:2008
-#, fuzzy, gcc-internal-format
-#| msgid "previous declaration of %q+D was here"
+#, gcc-internal-format
 msgid "previous declaration of %q+D with type %qT"
-msgstr "%q+D的上一个声明在此"
+msgstr "上一个类型为 %2$qT 的 %1$q+D 声明"
 
 #: c/c-decl.cc:2048
 #, gcc-internal-format
@@ -51388,9 +51356,9 @@ msgid "%<fallthrough%> attribute at top level"
 msgstr "%q+D不能有 section 属性"
 
 #: c/c-parser.cc:2279 c/c-parser.cc:4012
-#, fuzzy, gcc-internal-format
+#, gcc-internal-format
 msgid "expected %<;%>, identifier or %<(%>"
-msgstr "需要标识符或%<(%>"
+msgstr "需要 %<;%>、标识符或者 %<(%>"
 
 #: c/c-parser.cc:2297 cp/parser.cc:36027 cp/parser.cc:36099
 #, fuzzy, gcc-internal-format
@@ -51600,7 +51568,7 @@ msgstr "枚举表以逗号结尾"
 #: c/c-parser.cc:3639 go/gofrontend/embed.cc:423
 #, gcc-internal-format
 msgid "expected %<,%> or %<}%>"
-msgstr "需要%<,%>或%<}%>"
+msgstr "需要 %<,%> 或 %<}%>"
 
 #: c/c-parser.cc:3682
 #, gcc-internal-format
@@ -51845,10 +51813,9 @@ msgid "%qE is not a valid %<asm%> qualifier"
 msgstr "需要一个类模板，却给出了%qE"
 
 #: c/c-parser.cc:7653
-#, fuzzy, gcc-internal-format
-#| msgid "expected %<,%> or %<)%>"
+#, gcc-internal-format
 msgid "expected %<:%> or %<)%>"
-msgstr "需要 %<,%> 或 %<)%>"
+msgstr "需要 %<:%> 或 %<)%>"
 
 #: c/c-parser.cc:7952 cp/parser.cc:4575
 #, gcc-internal-format
@@ -52351,9 +52318,9 @@ msgid "method attributes must be specified at the end only"
 msgstr "方法属性必须被指定的于结束只有"
 
 #: c/c-parser.cc:12093
-#, fuzzy, gcc-internal-format
+#, gcc-internal-format
 msgid "expected %<;%> or %<{%> after method attribute definition"
-msgstr "结构定义后需要%<;%>"
+msgstr "需要在方法属性定义后出现 %<;%> 或 %<{%>"
 
 #: c/c-parser.cc:12215
 #, fuzzy, gcc-internal-format
@@ -52479,10 +52446,9 @@ msgid "expression must be integral"
 msgstr "调度块大小表达式必须为整型"
 
 #: c/c-parser.cc:13992 c/c-parser.cc:14004
-#, fuzzy, gcc-internal-format
-#| msgid "expected %<,%> or %<)%>"
+#, gcc-internal-format
 msgid "expected %<)%> or %<,%>"
-msgstr "需要 %<,%> 或 %<)%>"
+msgstr "需要 %<)%> 或 %<,%>"
 
 #: c/c-parser.cc:14155 c/c-parser.cc:24384
 #, gcc-internal-format
@@ -52660,11 +52626,11 @@ msgid "ordered argument needs positive constant integer expression"
 msgstr "折叠参数需要正整常量表达式"
 
 #: c/c-parser.cc:15691 c/c-parser.cc:23254 cp/parser.cc:47713
-#, fuzzy, gcc-internal-format
+#, gcc-internal-format
 msgid ""
 "expected %<+%>, %<*%>, %<-%>, %<&%>, %<^%>, %<|%>, %<&&%>, %<||%> or "
 "identifier"
-msgstr "需要标识符或%<(%>"
+msgstr "需要 %<+%>, %<*%>, %<-%>, %<&%>, %<^%>, %<|%>, %<&&%>, %<||%> 或标识符"
 
 #: c/c-parser.cc:15811 cp/parser.cc:39270
 #, gcc-internal-format
@@ -53055,10 +53021,9 @@ msgid "%<#pragma omp atomic write%> incompatible with %<acquire%> clause"
 msgstr "%<#pragma omp taskwait%>只能用在复合语句中"
 
 #: c/c-parser.cc:19366 cp/parser.cc:42056
-#, fuzzy, gcc-internal-format
-#| msgid "expected %<;%> after union definition"
+#, gcc-internal-format
 msgid "expected %<==%> comparison in %<if%> condition"
-msgstr "联合定义后需要%<;%>"
+msgstr "需要在 %<if%> 条件中进行 %<==%> 比较"
 
 #: c/c-parser.cc:19373 cp/parser.cc:42063
 #, gcc-internal-format
@@ -53320,10 +53285,9 @@ msgid "expected %<construct%>, %<device%>, %<implementation%> or %<user%>"
 msgstr "需要 %<;%>、%<,%> 或 %<)%>"
 
 #: c/c-parser.cc:22816 cp/parser.cc:46962
-#, fuzzy, gcc-internal-format
-#| msgid "expected %<catch%>"
+#, gcc-internal-format
 msgid "expected %<match%>"
-msgstr "需要%<catch%>"
+msgstr "需要%<match%>"
 
 #: c/c-parser.cc:22836
 #, fuzzy, gcc-internal-format
@@ -55883,9 +55847,8 @@ msgid "  passing %qT as %<this%> argument discards qualifiers"
 msgstr "从%qT到%qT的转换丢失了限定信息"
 
 #: cp/call.cc:3849
-#, fuzzy
 msgid "  no known conversion for implicit %<this%> parameter from %qH to %qI"
-msgstr "C++ 中不允许从%qT到%qT的隐式转换"
+msgstr "  对于隐式 %<this%> 参数从 %qH 到 %qI 的转换没有已知的转换"
 
 #: cp/call.cc:3856
 #, fuzzy, gcc-internal-format, gfc-internal-format
@@ -55894,9 +55857,8 @@ msgstr "以从%qT转换为%qT"
 
 #. Conversion of conversion function return value failed.
 #: cp/call.cc:3863
-#, fuzzy
 msgid "  no known conversion from %qH to %qI"
-msgstr "以从%qT转换为%qT"
+msgstr "  从 %qH 到 %qI 的转换没有已知的转换"
 
 #: cp/call.cc:3869
 msgid "  no known conversion for argument %d from %qH to %qI"
@@ -56079,19 +56041,19 @@ msgid "no match for "
 msgstr "没有匹配"
 
 #: cp/call.cc:5388
-#, fuzzy, gcc-internal-format
+#, gcc-internal-format
 msgid " (operand types are %qT, %qT, and %qT)"
-msgstr "将%qT赋值给%qT时类型不兼容"
+msgstr " (操作数类型为 %qT, %qT 和 %qT)"
 
 #: cp/call.cc:5390
-#, fuzzy, gcc-internal-format
+#, gcc-internal-format
 msgid " (operand types are %qT and %qT)"
-msgstr "在类型%qT和%qT间比较"
+msgstr " (操作数类型为 %qT 和 %qT)"
 
 #: cp/call.cc:5392
 #, gcc-internal-format
 msgid " (operand type is %qT)"
-msgstr ""
+msgstr " (操作数类型为%qT)"
 
 #: cp/call.cc:5409
 #, fuzzy, gcc-internal-format
@@ -56835,16 +56797,14 @@ msgid "default argument mismatch in overload resolution"
 msgstr "重载解决时默认参数不匹配"
 
 #: cp/call.cc:13178
-#, fuzzy, gcc-internal-format
-#| msgid " candidate 1: %q+#F"
+#, gcc-internal-format
 msgid " candidate 1: %q#F"
-msgstr "备选 1: %q+#F"
+msgstr "备选 1: %q#F"
 
 #: cp/call.cc:13180
-#, fuzzy, gcc-internal-format
-#| msgid " candidate 2: %q+#F"
+#, gcc-internal-format
 msgid " candidate 2: %q#F"
-msgstr "备选 2: %q+#F"
+msgstr "备选 2: %q#F"
 
 #: cp/call.cc:13226
 #, gcc-internal-format
@@ -56941,9 +56901,9 @@ msgstr "%q+#D无法被重载"
 
 #: cp/class.cc:1233 cp/decl.cc:1870 cp/decl.cc:1882 cp/decl.cc:1907
 #: cp/decl.cc:1930 cp/name-lookup.cc:2720 cp/name-lookup.cc:3034
-#, fuzzy, gcc-internal-format
+#, gcc-internal-format
 msgid "previous declaration %q#D"
-msgstr "先前的声明%q+D"
+msgstr "先前的声明 %q#D"
 
 #: cp/class.cc:1275
 #, gcc-internal-format
@@ -59584,10 +59544,9 @@ msgid "unused structured binding declaration"
 msgstr "无效的函数声明"
 
 #: cp/decl.cc:695
-#, fuzzy, gcc-internal-format
-#| msgid "unused variable %q+D"
+#, gcc-internal-format
 msgid "unused variable %qD"
-msgstr "未使用的变量%q+D"
+msgstr "未使用的变量 %qD"
 
 #: cp/decl.cc:705
 #, gcc-internal-format
@@ -59630,9 +59589,9 @@ msgid "redeclaration %qD differs in %qs from previous declaration"
 msgstr "对%qD的重声明在%<constexpr%>方面"
 
 #: cp/decl.cc:1391 cp/decl.cc:16165
-#, fuzzy, gcc-internal-format
+#, gcc-internal-format
 msgid "previous declaration %qD"
-msgstr "先前的声明%q+D"
+msgstr "先前的声明 %qD"
 
 #: cp/decl.cc:1420
 #, fuzzy, gcc-internal-format
@@ -59654,9 +59613,9 @@ msgid ""
 msgstr "本地类中的友元声明%qD没有先前声明"
 
 #: cp/decl.cc:1474
-#, fuzzy, gcc-internal-format
+#, gcc-internal-format
 msgid "previous declaration of %q#D"
-msgstr "%qD先前没有声明"
+msgstr "%q#D 的先前的声明"
 
 #: cp/decl.cc:1523
 #, fuzzy, gcc-internal-format
@@ -59732,10 +59691,9 @@ msgid "raw literal operator %q#D conflicts with literal operator template"
 msgstr "原始实字运算符 %q+D 冲突与实字运算符模板 %qD"
 
 #: cp/decl.cc:1881
-#, fuzzy, gcc-internal-format
-#| msgid "%q#D redeclared as different kind of symbol"
+#, gcc-internal-format
 msgid "%q#D redeclared as different kind of entity"
-msgstr "%q#D被重新声明为不同意义的符号"
+msgstr "%q#D 重新声明为不同类型的实体"
 
 #: cp/decl.cc:1905
 #, fuzzy, gcc-internal-format
@@ -59759,9 +59717,9 @@ msgid "conflicting declaration %q#D"
 msgstr "相互冲突的声明%q#D"
 
 #: cp/decl.cc:1956
-#, fuzzy, gcc-internal-format
+#, gcc-internal-format
 msgid "previous declaration as %q#D"
-msgstr "先前的声明%q+D"
+msgstr "先前的声明为 %q#D"
 
 #: cp/decl.cc:1966
 #, fuzzy, gcc-internal-format
@@ -59800,9 +59758,9 @@ msgid "conflicting declaration of %q#D with %qL linkage"
 msgstr "%q+D声明为没有外部链接的，之前却有外部声明"
 
 #: cp/decl.cc:2083
-#, fuzzy, gcc-internal-format
+#, gcc-internal-format
 msgid "previous declaration with %qL linkage"
-msgstr "%qD先前没有声明"
+msgstr "先前具有 %qL 链接的声明"
 
 #: cp/decl.cc:2132 cp/decl.cc:2142
 #, gcc-internal-format
@@ -59837,22 +59795,19 @@ msgid "conflicting exporting declaration %qD"
 msgstr "相互冲突的声明%q#D"
 
 #: cp/decl.cc:2202
-#, fuzzy, gcc-internal-format
-#| msgid "previous declaration of %q+D was here"
+#, gcc-internal-format
 msgid "previous declaration %q#D here"
-msgstr "%q+D的上一个声明在此"
+msgstr "先前的声明 %q#D 在此"
 
 #: cp/decl.cc:2229
-#, fuzzy, gcc-internal-format
-#| msgid "previous definition of %q+D was here"
+#, gcc-internal-format
 msgid "previous definition of %qD here"
-msgstr "%q+D的上一个定义在此"
+msgstr "%qD 的上一个定义在此"
 
 #: cp/decl.cc:2230
-#, fuzzy, gcc-internal-format
-#| msgid "previous declaration of %q+D was here"
+#, gcc-internal-format
 msgid "previous declaration of %qD here"
-msgstr "%q+D的上一个声明在此"
+msgstr "%q#D 的先前的声明在此"
 
 #: cp/decl.cc:2243
 #, fuzzy, gcc-internal-format
@@ -59966,10 +59921,9 @@ msgid "local label %qE conflicts with existing label"
 msgstr ""
 
 #: cp/decl.cc:3501
-#, fuzzy, gcc-internal-format
-#| msgid "previous declaration"
+#, gcc-internal-format
 msgid "previous label"
-msgstr "上一个声明"
+msgstr "上一个标签"
 
 #: cp/decl.cc:3591
 #, gcc-internal-format
@@ -60012,20 +59966,19 @@ msgid "  enters synchronized or atomic statement"
 msgstr "  进入了同步化或原子化语句"
 
 #: cp/decl.cc:3684 cp/decl.cc:3833
-#, fuzzy, gcc-internal-format
-#| msgid "jump into statement expression"
+#, gcc-internal-format
 msgid "  enters statement expression"
-msgstr "跳转至语句表达式中"
+msgstr "  进入了语句表达式"
 
 #: cp/decl.cc:3691 cp/decl.cc:3829
 #, gcc-internal-format
 msgid "  enters %<constexpr if%> statement"
-msgstr "  需要语句"
+msgstr "  进入了 %<consteval if%> 语句"
 
 #: cp/decl.cc:3697 cp/decl.cc:3831
 #, gcc-internal-format
 msgid "  enters %<consteval if%> statement"
-msgstr "  需要语句"
+msgstr "  进入了 %<consteval if%> 语句"
 
 #: cp/decl.cc:3812
 #, gcc-internal-format
@@ -63069,9 +63022,9 @@ msgid "%qT declared with greater visibility than its base %qT"
 msgstr "%qT被声明为比其基类%qT有更高的可见性"
 
 #: cp/decl2.cc:4571
-#, fuzzy, gcc-internal-format
+#, gcc-internal-format
 msgid "%q#D, declared using unnamed type, is used but never defined"
-msgstr "%q+#D声明为具有匿名类型，在使用前未被定义"
+msgstr "%q#D 声明为具有匿名类型，在使用前未被定义"
 
 #. DRs 132, 319 and 389 seem to indicate types with
 #. no linkage can only be used to declare extern "C"
@@ -63094,9 +63047,9 @@ msgid ""
 msgstr "%q+#D未指明非限定类型，所以它不被用作外部链接"
 
 #: cp/decl2.cc:4596
-#, fuzzy, gcc-internal-format
+#, gcc-internal-format
 msgid "%q#D, declared using local type %qT, is used but never defined"
-msgstr "%q+#D声明为具有局部类型%qT，在使用前未被定义"
+msgstr "%q#D 声明为具有局部类型 %qT，在使用前未被定义"
 
 #: cp/decl2.cc:4600
 #, fuzzy, gcc-internal-format
@@ -63585,10 +63538,9 @@ msgid "base %qT will be initialized after"
 msgstr "基类%qT将在"
 
 #: cp/init.cc:1331
-#, fuzzy, gcc-internal-format
-#| msgid "  %q+#D"
+#, gcc-internal-format
 msgid "  %q#D"
-msgstr "%q+#D"
+msgstr "  %q#D"
 
 #: cp/init.cc:1333
 #, gcc-internal-format
@@ -65577,7 +65529,7 @@ msgstr "typedef 名%qD用于析构函数声明"
 #: cp/parser.cc:6733 cp/parser.cc:23606
 #, gcc-internal-format
 msgid "expected unqualified-id"
-msgstr "需要无条件 ID"
+msgstr "需要非标识符"
 
 #: cp/parser.cc:6760 cp/typeck.cc:3173 cp/typeck.cc:3176 cp/typeck.cc:3193
 #, gcc-internal-format
@@ -66555,10 +66507,9 @@ msgid ""
 msgstr ""
 
 #: cp/parser.cc:18440
-#, fuzzy, gcc-internal-format
-#| msgid "expected template-argument"
+#, gcc-internal-format
 msgid "expected %<(%> after template-argument-list"
-msgstr "需要模板实参"
+msgstr "在模板参数列表后需要 %<(%>"
 
 #: cp/parser.cc:18554
 #, gcc-internal-format
@@ -66733,9 +66684,9 @@ msgid "types may not be defined in enum-base"
 msgstr "类型不能定义在类型转换中"
 
 #: cp/parser.cc:21049
-#, fuzzy, gcc-internal-format
+#, gcc-internal-format
 msgid "expected %<;%> or %<{%>"
-msgstr "需要 %<;%>、%<,%> 或 %<)%>"
+msgstr "需要 %<;%> 或 %<{%>"
 
 #: cp/parser.cc:21094
 #, fuzzy, gcc-internal-format
@@ -67259,10 +67210,9 @@ msgid "could not resolve typename type"
 msgstr "缺少用以解析%qE类型的上下文"
 
 #: cp/parser.cc:26973
-#, fuzzy, gcc-internal-format
-#| msgid "previous definition of %q+#T"
+#, gcc-internal-format
 msgid "previous definition of %q#T"
-msgstr "%q+#T的前一个定义"
+msgstr "%q#T 的先前的定义"
 
 #. In a lambda this should work, but doesn't currently.
 #. We're in a lambda, but it isn't the innermost class.
@@ -67344,9 +67294,9 @@ msgid "stray %<,%> at end of member declaration"
 msgstr "可变数组成员没有出现在结构的末尾"
 
 #: cp/parser.cc:27811
-#, fuzzy, gcc-internal-format
+#, gcc-internal-format
 msgid "expected %<;%> at end of member declaration"
-msgstr "需要声明"
+msgstr "需要在成员声明结束时出现 %<;%>"
 
 #: cp/parser.cc:27886
 #, fuzzy, gcc-internal-format
@@ -68472,10 +68422,9 @@ msgid "        %qD"
 msgstr "       %qD"
 
 #: cp/pt.cc:4343
-#, fuzzy, gcc-internal-format, gfc-internal-format
-#| msgid "          %s"
+#, gcc-internal-format, gfc-internal-format
 msgid "        %s"
-msgstr "          %s"
+msgstr "    %s"
 
 #: cp/pt.cc:4469
 #, fuzzy, gcc-internal-format
@@ -68521,9 +68470,9 @@ msgid ""
 msgstr "部分特例化%qT并未特例化任何模板参数"
 
 #: cp/pt.cc:5237 cp/pt.cc:5248 cp/pt.cc:5256
-#, fuzzy, gcc-internal-format
+#, gcc-internal-format
 msgid "primary template here"
-msgstr "以前在此声明过"
+msgstr "原始的模板在此"
 
 #: cp/pt.cc:5245
 #, gcc-internal-format
@@ -68544,9 +68493,9 @@ msgid "partial specialization %qD is not more specialized than"
 msgstr "部分特例化%qT并未特例化任何模板参数"
 
 #: cp/pt.cc:5272
-#, fuzzy, gcc-internal-format
+#, gcc-internal-format
 msgid "primary template %qD"
-msgstr "以前在此声明过"
+msgstr "原始的模板 %qD"
 
 #: cp/pt.cc:5314
 #, gcc-internal-format
@@ -68708,12 +68657,10 @@ msgid_plural "redeclared with %d template parameters"
 msgstr[0] "重声明为具有 %d 个模板参数"
 
 #: cp/pt.cc:6335
-#, fuzzy, gcc-internal-format
-#| msgid "previous declaration %q+D used %d template parameter"
-#| msgid_plural "previous declaration %q+D used %d template parameters"
+#, gcc-internal-format
 msgid "previous declaration %qD used %d template parameter"
 msgid_plural "previous declaration %qD used %d template parameters"
-msgstr[0] "先前的声明%q+D使用了 %d 个模板参数"
+msgstr[0] "先前的声明 %qD 使用了 %d 个模板参数"
 
 #: cp/pt.cc:6369
 #, gcc-internal-format
@@ -69066,10 +69013,9 @@ msgid "constraint mismatch at argument %d in template parameter list for %qD"
 msgstr "实参 %d 的类型/值不匹配，在%qD的模板参数列表中"
 
 #: cp/pt.cc:8621
-#, fuzzy, gcc-internal-format
-#| msgid "  expected a type, got %qE"
+#, gcc-internal-format
 msgid "  expected %qD but got %qD"
-msgstr "需要一个类型，却给出了%qE"
+msgstr "  需要 %qD，却给出了%qD"
 
 #: cp/pt.cc:8694
 #, fuzzy, gcc-internal-format
@@ -71891,10 +71837,9 @@ msgid "  because the following virtual functions are pure within %qT:"
 msgstr "因为下列虚函数在%qT中为纯虚函数："
 
 #: cp/typeck2.cc:242
-#, fuzzy, gcc-internal-format
-#| msgid "        %qD"
+#, gcc-internal-format
 msgid "    %#qD"
-msgstr "       %qD"
+msgstr "       %#qD"
 
 #: cp/typeck2.cc:282
 #, fuzzy, gcc-internal-format
@@ -75679,9 +75624,9 @@ msgid "Syntax error in PROCEDURE statement at %C"
 msgstr "%C处 PROCEDURE 语句语法错误"
 
 #: fortran/decl.cc:7247 fortran/decl.cc:11290
-#, fuzzy, gcc-internal-format
+#, gcc-internal-format
 msgid "Expected %<::%> after binding-attributes at %C"
-msgstr "%C 处的泛型绑定后有垃圾字符"
+msgstr "在 %C 的绑定属性后需要 %<::%>"
 
 #: fortran/decl.cc:7254
 #, gcc-internal-format, gfc-internal-format
@@ -75933,9 +75878,9 @@ msgid "Unexpected character in variable list at %C"
 msgstr "%C处变量列表中有非预期的垃圾字符"
 
 #: fortran/decl.cc:8879
-#, fuzzy, gcc-internal-format
+#, gcc-internal-format
 msgid "Expected %<(%> at %C"
-msgstr "在%C处需要“,”"
+msgstr "需要在 %C 处出现 %<(%>"
 
 #: fortran/decl.cc:8893 fortran/decl.cc:8933
 #, gcc-internal-format, gfc-internal-format
@@ -75970,9 +75915,9 @@ msgid "Expected \")\" at %C"
 msgstr "在%C处需要“)”"
 
 #: fortran/decl.cc:8994
-#, fuzzy, gcc-internal-format
+#, gcc-internal-format
 msgid "Expected %<,%> or end of statement at %C"
-msgstr "%C处非预期的 END 语句"
+msgstr "需要 在 %C 处出现 %<,%> 或语句结束"
 
 #: fortran/decl.cc:9020
 #, gcc-internal-format, gfc-internal-format
@@ -76429,9 +76374,9 @@ msgid "GENERIC at %C must be inside a derived-type CONTAINS"
 msgstr "%C处的 GENERIC 必须是在派生类型 CONTAINS 内"
 
 #: fortran/decl.cc:11433
-#, fuzzy, gcc-internal-format
+#, gcc-internal-format
 msgid "Expected %<::%> at %C"
-msgstr "在%C处需要“,”"
+msgstr "在%C处需要 %<::%>"
 
 #: fortran/decl.cc:11445
 #, gcc-internal-format, gfc-internal-format
@@ -76444,9 +76389,9 @@ msgid "Malformed GENERIC statement at %C"
 msgstr "%C处的 USE 语句缺少泛型规格"
 
 #: fortran/decl.cc:11477
-#, fuzzy, gcc-internal-format
+#, gcc-internal-format
 msgid "Expected %<=>%> at %C"
-msgstr "在%C处需要“,”"
+msgstr "需要在 %C 处出现 %<=>%>"
 
 #: fortran/decl.cc:11513
 #, fuzzy, gcc-internal-format
@@ -76498,9 +76443,9 @@ msgid "Expected module procedure name at %C"
 msgstr "%C处期待模块过程名"
 
 #: fortran/decl.cc:11682
-#, fuzzy, gcc-internal-format
+#, gcc-internal-format
 msgid "Expected %<,%> at %C"
-msgstr "在%C处需要“,”"
+msgstr "需要在 %C 处出现 %<,%>"
 
 #: fortran/decl.cc:11688
 #, fuzzy, gcc-internal-format
@@ -79663,9 +79608,9 @@ msgid "Association target at %L cannot be a BOZ literal constant"
 msgstr "‘我’于 %L 和‘J’于 %L 无法两者是 BOZ 实字常数"
 
 #: fortran/match.cc:1978
-#, fuzzy, gcc-internal-format
+#, gcc-internal-format
 msgid "Expected %<)%> or %<,%> at %C"
-msgstr "在%C处需要“,”"
+msgstr "需要在 %C 处出现 %<)%> 或 %<,%>"
 
 #: fortran/match.cc:1996
 #, fuzzy, gcc-internal-format, gfc-internal-format
@@ -80986,9 +80931,9 @@ msgid ""
 msgstr ""
 
 #: fortran/openmp.cc:1571
-#, fuzzy, gcc-internal-format
+#, gcc-internal-format
 msgid "Expected %<,%> or %<)%> at %C"
-msgstr "在%C处需要“,”"
+msgstr "需要在 %C 处出现 %<,%> 或 %<)%>"
 
 #: fortran/openmp.cc:1597 fortran/openmp.cc:1607
 #, gcc-internal-format
@@ -81010,9 +80955,9 @@ msgid "Duplicated %qs clause at %L"
 msgstr "重复的 %s 属性，位于 %L"
 
 #: fortran/openmp.cc:1693
-#, fuzzy, gcc-internal-format
+#, gcc-internal-format
 msgid "Expected %<(%> after %qs at %C"
-msgstr "在%C处需要“,”"
+msgstr "在 %2$C 处的 %1$qs 后需要 %<(%>"
 
 #: fortran/openmp.cc:1700
 #, fuzzy, gcc-internal-format
@@ -81027,9 +80972,9 @@ msgstr ""
 
 #: fortran/openmp.cc:1832 fortran/openmp.cc:1868 fortran/openmp.cc:2257
 #: fortran/openmp.cc:2282
-#, fuzzy, gcc-internal-format
+#, gcc-internal-format
 msgid "Expected %<:%> at %C"
-msgstr "在%C处需要“,”"
+msgstr "在%C处需要 %<:%>"
 
 #: fortran/openmp.cc:1892
 #, fuzzy, gcc-internal-format, gfc-internal-format
@@ -81098,9 +81043,9 @@ msgid "Duplicated clause with SOURCE dependence-type at %C"
 msgstr ""
 
 #: fortran/openmp.cc:2264
-#, fuzzy, gcc-internal-format
+#, gcc-internal-format
 msgid "Expected %<)%> or %<omp_cur_iteration)%> at %C"
-msgstr "在%C处需要“,”"
+msgstr "需要在 %C 处出现 %<)%> 或 %<omp_cur_iteration)%>"
 
 #: fortran/openmp.cc:2276
 #, gcc-internal-format, gfc-internal-format
@@ -81313,9 +81258,9 @@ msgid "Unexpected junk after $OMP CRITICAL statement at %C"
 msgstr "%C处 ELSE IF 语句后有非预期的垃圾字符"
 
 #: fortran/openmp.cc:4403
-#, fuzzy, gcc-internal-format
+#, gcc-internal-format
 msgid "Expected %<( depobj )%> at %C"
-msgstr "在%C处需要“,”"
+msgstr "在%C处需要出现 %<( depobj )%>"
 
 #: fortran/openmp.cc:4421
 #, gcc-internal-format
@@ -81506,9 +81451,9 @@ msgstr "%s 只接受 2 个参数"
 
 #: fortran/openmp.cc:5380 fortran/openmp.cc:5525 fortran/openmp.cc:5623
 #: fortran/openmp.cc:5690
-#, fuzzy, gcc-internal-format
+#, gcc-internal-format
 msgid "expected %<(%> at %C"
-msgstr "在%C处需要“,”"
+msgstr "需要在 %C 处出现 %<(%>"
 
 #: fortran/openmp.cc:5388
 #, fuzzy, gcc-internal-format, gfc-internal-format
@@ -81523,15 +81468,14 @@ msgstr "%2$L处 %1$s 函数的参数是负的"
 
 #: fortran/openmp.cc:5402 fortran/openmp.cc:5515 fortran/openmp.cc:5671
 #: fortran/openmp.cc:5699
-#, fuzzy, gcc-internal-format
+#, gcc-internal-format
 msgid "expected %<)%> at %C"
-msgstr "在%C处需要“,”"
+msgstr "需要在 %C 处出现 %<)%>"
 
 #: fortran/openmp.cc:5408
 #, fuzzy, gcc-internal-format, gfc-internal-format
-#| msgid "Expected \",\" at %C"
 msgid "expected : at %C"
-msgstr "在%C处需要“,”"
+msgstr "需要 : 在 %C"
 
 #: fortran/openmp.cc:5425
 #, fuzzy, gcc-internal-format, gfc-internal-format
@@ -81575,19 +81519,19 @@ msgid ""
 msgstr "需要 %<;%>、%<,%> 或 %<)%>"
 
 #: fortran/openmp.cc:5579
-#, fuzzy, gcc-internal-format
+#, gcc-internal-format
 msgid "expected %<=%> at %C"
-msgstr "在%C处需要“,”"
+msgstr "需要在 %C 处出现 %<=%>"
 
 #: fortran/openmp.cc:5586
-#, fuzzy, gcc-internal-format
+#, gcc-internal-format
 msgid "expected %<{%> at %C"
-msgstr "在%C处需要“,”"
+msgstr "需要在 %C 处出现 %<{%>"
 
 #: fortran/openmp.cc:5601
-#, fuzzy, gcc-internal-format
+#, gcc-internal-format
 msgid "expected %<}%> at %C"
-msgstr "在%C处需要“,”"
+msgstr "需要在 %C 处出现 %<}%>"
 
 #: fortran/openmp.cc:5630
 #, fuzzy, gcc-internal-format, gfc-internal-format
@@ -81601,10 +81545,9 @@ msgid "expected variant name at %C"
 msgstr "在%C处需要变量名"
 
 #: fortran/openmp.cc:5681
-#, fuzzy, gcc-internal-format
-#| msgid "Expected \",\" at %C"
+#, gcc-internal-format
 msgid "expected %<match%> at %C"
-msgstr "在%C处需要“,”"
+msgstr "在 %C 处需要 %<match%>"
 
 #: fortran/openmp.cc:5732
 #, gcc-internal-format, gfc-internal-format
@@ -85249,7 +85192,7 @@ msgstr "‘%s’不能出现在%L处其自身被分配的 ALLOCATE 语句的数�
 #: fortran/resolve.cc:8324
 #, fuzzy, gcc-internal-format
 msgid "Expected %<*%> in coindex specification in ALLOCATE statement at %L"
-msgstr "%L处的 ALLOCATE 语句中需要数组规格说明"
+msgstr "在 %L 的 ALLOCATE 语句的 coindex specification 中需要 %<*%>"
 
 #: fortran/resolve.cc:8366
 #, gcc-internal-format, gfc-internal-format
@@ -88184,9 +88127,9 @@ msgid "Unused module variable %qs which has been explicitly imported at %L"
 msgstr "%2$L处声明了未使用的变量‘%1$s’"
 
 #: fortran/trans-decl.cc:5978
-#, fuzzy, gcc-internal-format
+#, gcc-internal-format
 msgid "Unused variable %qs declared at %L"
-msgstr "%2$L处声明了未使用的变量‘%1$s’"
+msgstr "%2$L处声明了未使用的变量‘%1$qs’"
 
 #: fortran/trans-decl.cc:6027
 #, fuzzy, gcc-internal-format
@@ -88523,16 +88466,14 @@ msgid "empty file"
 msgstr ""
 
 #: go/gofrontend/embed.cc:391 go/gofrontend/embed.cc:520
-#, fuzzy, gcc-internal-format
-#| msgid "expected %<;%>"
+#, gcc-internal-format
 msgid "expected %<\"%>"
-msgstr "需要%<;%>"
+msgstr "需要%<\"%>"
 
 #: go/gofrontend/embed.cc:474
-#, fuzzy, gcc-internal-format
-#| msgid "expected %<,%> or %<)%>"
+#, gcc-internal-format
 msgid "expected %<,%> or %<]%>"
-msgstr "需要 %<,%> 或 %<)%>"
+msgstr "需要 %<,%> 或 %<]%>"
 
 #: go/gofrontend/embed.cc:506
 #, fuzzy, gcc-internal-format
@@ -88720,9 +88661,9 @@ msgid "%qD is defined with tls model %s"
 msgstr "此函数中的%qD在使用前未初始化"
 
 #: lto/lto-symtab.cc:171
-#, fuzzy, gcc-internal-format, gfc-internal-format
+#, gcc-internal-format, gfc-internal-format
 msgid "previously defined here as %s"
-msgstr "%q+#D已在此定义过"
+msgstr "先前在此定义为 %s"
 
 #: lto/lto-symtab.cc:474
 #, fuzzy, gcc-internal-format
@@ -89706,14 +89647,14 @@ msgid ""
 msgstr "方法 %<%c%E%>声明 %<@optional%>和 %<@required%>同时"
 
 #: objc/objc-act.cc:6170
-#, fuzzy, gcc-internal-format
+#, gcc-internal-format
 msgid "previous declaration of %<%c%E%> as %<@required%>"
-msgstr "%<%c%s%>的上一个声明"
+msgstr "%<%c%E%> 的上一个声明为 %<@required%>"
 
 #: objc/objc-act.cc:6190
-#, fuzzy, gcc-internal-format
+#, gcc-internal-format
 msgid "previous declaration of %<%c%E%> as %<@optional%>"
-msgstr "%<%c%s%>的上一个声明"
+msgstr "%<%c%E%> 的上一个声明为 %<@optional%>"
 
 #: objc/objc-act.cc:6250
 #, fuzzy, gcc-internal-format
@@ -89721,9 +89662,9 @@ msgid "duplicate declaration of method %<%c%E%> with conflicting types"
 msgstr "方法%<%c%E%>的声明重复"
 
 #: objc/objc-act.cc:6254
-#, fuzzy, gcc-internal-format
+#, gcc-internal-format
 msgid "previous declaration of %<%c%E%>"
-msgstr "%<%c%s%>的上一个声明"
+msgstr "%<%c%E%> 的上一个声明"
 
 #: objc/objc-act.cc:6291
 #, gcc-internal-format
@@ -89847,7 +89788,7 @@ msgstr "%qE的上一个声明"
 #: objc/objc-act.cc:7070
 #, gcc-internal-format
 msgid "previous declaration"
-msgstr "上一个声明"
+msgstr "先前的声明"
 
 #: objc/objc-act.cc:7082
 #, gcc-internal-format
