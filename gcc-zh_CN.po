@@ -35,7 +35,7 @@ msgstr ""
 "Project-Id-Version: gcc 13.1-b20230409\n"
 "Report-Msgid-Bugs-To: https://gcc.gnu.org/bugs/\n"
 "POT-Creation-Date: 2023-07-26 18:38+0000\n"
-"PO-Revision-Date: 2024-02-04 22:10+0800\n"
+"PO-Revision-Date: 2024-02-07 10:31+0800\n"
 "Last-Translator: Zhanhaoxiang Zhang <zzhx13842727578@126.com>\n"
 "Language-Team: Chinese (simplified) <i18n-zh@googlegroups.com>\n"
 "Language: zh_CN\n"
@@ -64458,15 +64458,14 @@ msgid "%<#define %s%>"
 msgstr ""
 
 #: cp/module.cc:17606
-#, fuzzy, gcc-internal-format
+#, gcc-internal-format
 msgid "compiled module file is %qs"
-msgstr "%s：无法找到模块文件 %s\n"
+msgstr "编译的模块文件是 %qs"
 
 #: cp/module.cc:17643 cp/module.cc:17648
-#, fuzzy, gcc-internal-format, gfc-internal-format
-#| msgid "Display the compiler's version"
+#, gcc-internal-format, gfc-internal-format
 msgid "compiled module is %sversion %s"
-msgstr "显示编译器版本"
+msgstr "编译的模块是 %sversion %s"
 
 #: cp/module.cc:17654
 #, fuzzy, gcc-internal-format, gfc-internal-format
@@ -64529,10 +64528,9 @@ msgid "failed to read compiled module cluster %u: %s"
 msgstr ""
 
 #: cp/module.cc:18447
-#, fuzzy, gcc-internal-format, gfc-internal-format
-#| msgid "failed to find class '%s'"
+#, gcc-internal-format, gfc-internal-format
 msgid "failed to read compiled module: %s"
-msgstr "找不到类‘%s’"
+msgstr "无法读取编译的模块: %s"
 
 #: cp/module.cc:18457
 #, gcc-internal-format
@@ -64544,7 +64542,7 @@ msgstr ""
 #: cp/module.cc:18462
 #, gcc-internal-format
 msgid "imports must be built before being imported"
-msgstr ""
+msgstr "导入的模块必须在导入之前构建"
 
 #: cp/module.cc:18465
 #, gcc-internal-format
