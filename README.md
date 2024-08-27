@@ -1,60 +1,23 @@
-# 非官方 GCC 中文翻译增强
+# 贡献 GCC 中文翻译
 
-**警告**：本仓库提供的中文翻译内容未经官方审核和校验，因此不能保证其准确性. 
-
-## 简介
-
-当终端的 `$LANG` 环境变量设置为 `zh_CN.UTF-8` 时，GCC 编译器的提示信息会显示为中文，这些中文信息通常来源于 `/usr/share/locale/zh_CN/LC_MESSAGES/gcc.mo` 文件. 
-
-然而，即使是最新版的 GCC，其中文翻译的覆盖范围仍然有限. 为了解决这个问题，我们创建了本仓库，旨在通过更新上述翻译文件来增强 GCC 的中文翻译. 
-
-## 如何使用
-
-本仓库中的翻译文件适用于 GCC 的 13.2.0 版本，建议您先将 GCC 更新到最新版本. 
-
-1. 克隆本仓库到本地：
-
-```bash
-$ git clone https://github.com/zzhx2006/gcc-zh_CN
-$ cd gcc-zh_CN
-```
-
-2. 通常情况下，系统会默认自动安装 `gettext` 软件包. 使用 `msgfmt` 工具编译出 `.mo` 文件：
-
-```bash
-$ msgfmt gcc-zh_CN.po -o gcc.mo
-```
-
-3. 为了保险起见，建议先备份原有的 `.mo` 文件，然后将编译出的文件复制到指定目录. 
-
-```bash
-$ mv /usr/share/locale/zh_CN/LC_MESSAGES/gcc.mo /usr/share/locale/zh_CN/LC_MESSAGES/gcc.mo.bak
-$ cp gcc.mo /usr/share/locale/zh_CN/LC_MESSAGES/
-```
-
-完成以上步骤后，GCC 编译器的提示信息将使用本仓库提供的翻译. 
+当终端的 `$LANG` 环境变量设置为 `zh_CN.UTF-8` 时，gcc 编译器的提示信息会显示为中文，这些中文信息通常来源于 `/usr/share/locale/zh_CN/LC_MESSAGES/gcc.mo` 文件. 
 
 ## 如何贡献
 
-1. 首先，Fork 本仓库. 
-2. 使用翻译工具进行翻译. 
-3. 创建一个新的分支，并将您的修改提交到该分支（以避免在主分支上直接进行修改）. 
-4. 在新建的分支上，向本仓库的主分支提出 Pull Request. 
+1. 浏览[官网](https://translationproject.org/)了解 Translation Project，STFW 了解 GNU `gettext` 工具的基本使用；
+2. 尝试在本地编辑和翻译 `.po` 文件中的几个词条，并预览翻译效果；
+3. 浏览[官网](https://translationproject.org/html/translators.html)了解如何成为一名 Translator；
+4. 按照[官网](https://translationproject.org/html/whydisclaim.html)要求提交一份 disclaimer（免责声明）；
+5. 向 [TP coordinator](mailto:coordinator@translationproject.org) 和简体中文翻译团队领导者 [Boyuan Yang](mailto:073plan@gmail.com) 发送邮件请求加入简体中文翻译团队；
+6. 按照[官网](https://translationproject.org/html/robot.html)要求使用 TP-Robot 提交自己的翻译文件；
 
-## 关于 GNU Translation Project
+## `tools/` 文件夹说明
 
-GNU 翻译项目官网提供了丰富的资源和信息，包括：
+- `podiff.py`: 从 [amandasaurus/podiff](https://github.com/amandasaurus/podiff) 仓库的修改而来，原作者为 Rory McCann 和 Ian McEwen；用来比较两个 `.po` 文件之间的差异；原仓库的旧文件使用 Python2 编写，本仓库将其更新到 Python3 后继续使用；
+- `sendpo.sh`: 从[官网的 `sendpo.sh` 文件](https://translationproject.org/extra/sendpo.sh)修改而来；用来处理翻译好的 `.po` 文件以准备发送给 TP-Robot；官网的文件使用了 `mail` 命令从命令行直接发送邮件，本仓库删除了使用 `mail` 命令的部分，仅保留压缩和编码操作，便于使用现代邮件客户端发送邮件；
+- `update.sh`: 用来更新本地的翻译；
 
-- 项目概述：介绍了翻译项目的目标和运作方式. 
-- 包和团队列表：列出参与项目的软件包和负责不同语言翻译的团队，每个团队页面都提供了联系信息和相关链接. 
-- 对维护者、翻译者和协调者的指导：详细解释了如何参与翻译项目，包括对翻译者的免责声明要求和与处理 PO 文件提交的机器人交互的指南. 
-- 翻译工具：介绍了一些翻译工具，如 Lokalize 和 poEdit，以及如何获取和安装这些工具. 
-- 报告错误：指导如何报告在处理的项目中发现的翻译错误. 
-- 讨论：提供了关于翻译和翻译相关软件的技术讨论列表的信息. 
-
-更多详细信息，请访问 [GNU 翻译项目官网](https://translationproject.org/html/welcome.html). 
-
-## 更多资源
+## 参考资源
 
 - [游戏本地化深度指南：如何高效翻译与处理多语言PO文件 - 知乎](https://zhuanlan.zhihu.com/p/662483399)
 - [如何使用 poedit 翻译？ - 知乎](https://www.zhihu.com/question/27039330)

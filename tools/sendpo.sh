@@ -53,6 +53,6 @@ p;q;}' $file)
 }
 
 # Send compressed PO file to TP robot.
-abcd="./content.txt"
+result="./content.txt"
 
-gzip <$file | uuencode -m $name.gz | tee $abcd
+gzip <$file | uuencode -m $name.gz | tee $result
